@@ -31,48 +31,34 @@
 		\begin{tabular}{lllllll}
 			\cline{1-6}
 			\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}EAiIB\\ Informatyka\end{tabular}} & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}Pęcak Tomasz\\ Bielech Maciej\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Rok\\ II\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Grupa\\ 3a\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Zespół\\ II\end{tabular}} &  \\ \cline{1-6}
-			\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}Pracownia\\ FIZYCZNA\\ WFiIS AGH\end{tabular}} & \multicolumn{4}{l|}{\begin{tabular}[c]{@{}l@{}}Temat:\\ \textbf{Moduł Younga} \end{tabular}} & 
-			\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}nr ćwiczenia:\\ 11\end{tabular}} &  \\ \cline{1-6}
-			\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}c@{}}Data wykonania:\\ 21.10.2017\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Data oddania:\\ 24.10.2017\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Zwrot do poprawki:\\ \phantom{data poprawki}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Data oddania:\\  \phantom{data oddania}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Data zaliczenia:\\  \phantom{data zaliczenia}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}OCENA:\\ \phantom{ocena}\end{tabular}} &  \\ \cline{1-6} 
+			\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}Pracownia\\ FIZYCZNA\\ WFiIS AGH\end{tabular}} & \multicolumn{4}{l|}{\begin{tabular}[c]{@{}l@{}}Temat:\\ \textbf{Fale podłużne w ciałach stałych } \end{tabular}} & 
+			\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}nr ćwiczenia:\\ 29\end{tabular}} &  \\ \cline{1-6}
+			\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}c@{}}Data wykonania:\\ 28.10.2017\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Data oddania:\\ 31.10.2017\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Zwrot do poprawki:\\ \phantom{data poprawki}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Data oddania:\\  \phantom{data oddania}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Data zaliczenia:\\  \phantom{data zaliczenia}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}OCENA:\\ \phantom{ocena}\end{tabular}} &  \\ \cline{1-6} 
 		\end{tabular}
 	\end{table}
 	 \hspace{5mm}
 
 	\section{Wstęp}
-	Celem ćwiczenia było wyznaczenie wartości modułu Younga dla stali i mosiądzu przy wykorzystaniu prawa Hooke'a.
+	Celem ćwiczenia było wyznaczenie wartości modułu Younga dla różnych materiałów przy wykorzystaniu rónania fali rozchodzącej się w pręcie. 
 	
-	Prawo Hooke'a definiuje, że odkształcenie sprężyste jest wprost proporcjonalne do przyłożonej siły.
-	
-	W ćwiczeniu badaliśmy przypadek, gdy siła jest prostopadła do przekroju poprzecznego drutu. W skutek tej siły zmienia się jego długość, co można opisać wzorem:
 	\begin{equation}
 	\label{eq:prawohooka}
 	\Delta l=\frac{Fl}{SE}.
 	\end{equation}
-	
-	Moduł Younga ($E$) to współczynniki sprężystości podłużnej. Określa on własności sprężyste ciała stałego, charakteryzując podatność materiału na odkształcenia podłużne: rozciąganie, ściskanie, zgniatanie. Jego jednostką jest pascal. Możemy go obliczyć znając naprężenie $\sigma$ występujące w danym obszarze ciała oraz względne odształcenie liniowe $\epsilon$, co opisuje wzór: 
 	\begin{equation}
 	\label{eq:modulYounga}
 	E=\frac{\sigma}{\epsilon}.
 	\end{equation}
-	
-	
-	Wartość modułu Younga mówi nam jak duże naprężenie należaoby przyłożyć, aby zwiększyć dwukrotnie długość drutu. Taka zależność nie ma jednak odwzierciedlenia w praktyce, ponieważ już przy mniejszych naprężeniach ciało ulega nieodwracalnym zmianom. Tę charakterystykę dla metali przedstawia wykres (\ref{fig:wykMod}).
+
 	\renewcommand*{\figurename}{Wykres} 
 	\setcounter{figure}{0}
 	\begin{figure}[!h]
 		\begin{center}
-			\includegraphics[width=0.5\textwidth]{wykresModul}
+		
 		\end{center}
 		\caption{Charakterystyka Modułu Younga. Źródło: pl.wikipedia.org}
 		\label{fig:wykMod}
 	\end{figure}
-	Jak widzimy początkowo wydłużenie zależy liniowo od przyłożonej siły. Po uzyskaniu naprężenia, zwanego granicą sprężystości, ciało traci własności sprężyste i nie wraca do poprzedniego kształtu.
-	
-	W naszym doświadczeniu badamy wydłużenia, które spełniają prawo Hooke'a. Ma to przełożenie na dobierane obciążenie w zależności od wybranego materiału, ponieważ dla ciał o niższym module Younga
-	granica sprężystości jest mniejsza. 
-	
-	Zgodnie z prawem Hooke'a zależność $\Delta l(F)$ jest liniowa, dlatego można ją opisać jako: $\Delta l(F)=aF+b$. Współczynnik kierunkowy to tangens kąta nachylenia prostej do osi OX, co opisujemy jako $a=\frac{\Delta l}{mg}$. Jest to równoznaczne z $a=\frac{l}{ES}$ (na podstawie Prawa Hooke'a, wzór \ref{eq:prawohooka}), więc
-	$E=\frac{l}{aS}$. Podstawiając do równania $S=\frac{\pi d^2}{4}$ otrzymujemy wzór roboczy na moduł Younga:
 	
 	\begin{equation}
 	\label{eq:wzorroboczy}
@@ -81,40 +67,36 @@
 	
 	Wartość współczynnika \textit{a} oraz jego niepewność \textit{u(a)} wyznaczymy korzystając z regresji liniowej.
 	\section{Wykonanie ćwiczenia}
-	Ćwiczenie wykonywaliśmy dla drutów: mosiężnego i stalowego. Dla każdego z nich wykonaliśmy nastepujące czynności:
+	Ćwiczenie wykonywaliśmy dla drutów: mosiężnego, stalowego, miedzianego i aluminiowego. Dla każdego z nich wykonaliśmy nastepujące czynności:
 	\begin{itemize}
-		\item W pierwszym kroku dokonaliśmy pomiaru długości drutu przy użyciu przymiaru milimetrowego z~dokładnością 1 mm.
+		\item W pierwszym kroku dokonaliśmy pomiaru wymiarów próbki danego materiału w celu wyznaczenia jego objętości. W zależności od kształtu stosowaliśmy: taśmę mierniczą o dokładności $\pm1$ mm lub suwmiarkę $\pm0.05$ mm.
+		\item Następnie każdą próbkę zwarzyliśmy. Ze względu na różne wielkośc próbek używaliśmy wag o różnych dokładnościach( $\pm1$g lub $\pm0.001$g).
 		
-		\item Następnie, po wcześniejszym obciążeniu drutu masą około 2kg, zmierzyliśmy średnicę drutu za pomocą śruby mikrometrycznej z~dokładnością 0,01 mm. Pomiaru tego dokonaliśmy w pięciu miejscach, aby sprawdzić czy drut ma stałą średnicę.
+		\item W kolejnym kroku zmierzyliśmy długość pręta przy pomocy taśmy mierniczej.
 		
-		\item Kolejnym krokiem było opróżnienie szalki z odważników i wyzerowanie czujnika mikrometrycznego.
-		
-		\item Po tym obciążaliśmy szalkę przez dokładanie kolejnych odważników, notując w tabeli sumaryczną masę odważników i wydłużenie drutu. Dla lepszej dokładności pomiary wykonywaliśmy przy dokładaniu odważników ($\uparrow $) i przy ich zdejmowaniu ($\downarrow $) .
-		
-		\item Wykonując ćwiczenie dbaliśmy o to, aby odkształcenie drutu było sprężyste, gdyż po przekroczeniu granicy sprężystości drut uległ by odkształceniu nieodwracalnemu.
-		
-		\item Wartosci odczytane z czujnika przenieśliśmy do tabel: (\ref{fig:tebmosiadz}, \ref{fig:tebmosiadz2}) dla mosiądzu i (\ref{fig:tabstal}) dla stali. Dla mosiądzu wykonaliśmy dwie serie pomiarów ze względu na błąd systematyczny, o który podejrzewaliśmy wyniki pierwszych pomiarów po ich wstępnej analizie.
+		\item Na końcu dokonaliśmy pomiaru częstotliwości harmoniczych przy pomocy oscyloskopu w programie Zelscope. W tym celu umieśliśmy pręt na nitkach stojaka, by mógł swobonie drgać. Ustawiliśmy mikrofon w odpowiedniej odległości od drutu. Następnie uderzaliśmy młotkiem w koniec pręta i zapisywaliśmy wyniki uzykane w programie.  
+	
 	\renewcommand*{\figurename}{Tabela} 
 	\setcounter{figure}{0}
 	
 	\begin{figure}[!h]
 		\centering
 		\caption{Pomiary dla drutu mosiężnego}
-		\includegraphics[width=0.65\textwidth]{tabmosiadz1}
+
 		\label{fig:tebmosiadz}
 	\end{figure}
 	
 	\begin{figure}[!h]
 		\centering
 		\caption{Druga seria pomiarów dla drutu mosiężnego}
-		\includegraphics[width=0.65\textwidth]{tabmosiadz2}
+
 		\label{fig:tebmosiadz2}
 	\end{figure}
 	
 	\begin{figure}[!h]
 		\centering
 		\caption{Pomiary dla drutu stalowego}
-		\includegraphics[width=0.65\textwidth]{tabstal}
+%		\includegraphics[width=0.65\textwidth]{}
 		\label{fig:tabstal}
 	\end{figure}
 		
@@ -146,7 +128,7 @@
 	\setcounter{figure}{1}
 	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.8\textwidth]{wykresmosiadz1}
+
 		\caption{Wykres zależności wydłużenia od siły dla drutu mosiężnego.}
 		\label{fig:wykmosiadz}
 	\end{figure}
@@ -202,7 +184,7 @@
 	
 	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.8\textwidth]{wykmosiadz2}
+
 		\caption{Wykres zależności wydłużenia od siły dla drugiej serii pomiarów drutu mosiężnego.}
 		\label{fig:wykmosiadz2}
 	\end{figure}
@@ -244,7 +226,7 @@
 	\subsection{Opracowanie danych dla drutu stalowego.}
 	\begin{figure}[!h]
 		\centering
-		\includegraphics[width=0.8\textwidth]{wykstal}
+%		\includegraphics[width=0.8\textwidth]{}
 		\caption{Wykres zależności wydłużenia od siły dla drutu stalowego.}
 		\label{fig:wykstal}
 	\end{figure}
