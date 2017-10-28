@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.29)  28 OCT 2017 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.29)  28 OCT 2017 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -612,6 +612,15 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@ftn=\toks33
 ) (./sprawko3.aux
 
+LaTeX Warning: Label `tab:miedz' multiply defined.
+
+
+LaTeX Warning: Label `tab:miedz' multiply defined.
+
+
+LaTeX Warning: Label `tab:miedz' multiply defined.
+
+
 LaTeX Warning: Label `a' multiply defined.
 
 
@@ -824,8 +833,25 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 
 ] [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 109.
- [3] [4] [5]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 82.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 85.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 95.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 105.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 115.
+
+[3] [4] [5]
 Overfull \hbox (8.32698pt too wide) in paragraph at lines 272--279
  [] 
  []
@@ -836,13 +862,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5751 strings out of 493013
- 79846 string characters out of 6136993
- 159090 words of memory out of 5000000
- 9161 multiletter control sequences out of 15000+600000
+ 5748 strings out of 493013
+ 79799 string characters out of 6136993
+ 159074 words of memory out of 5000000
+ 9158 multiletter control sequences out of 15000+600000
  40870 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,14n,42p,639b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,42p,639b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/texmf-dist/fonts/type1
@@ -852,7 +878,7 @@ b><c:/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2016/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on sprawko3.pdf (6 pages, 86297 bytes).
+Output written on sprawko3.pdf (6 pages, 87192 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
