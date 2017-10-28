@@ -76,52 +76,82 @@
 		
 		\item Na końcu dokonaliśmy pomiaru częstotliwości harmoniczych przy pomocy oscyloskopu w programie Zelscope. W tym celu umieśliśmy pręt na nitkach stojaka, by mógł swobonie drgać. Ustawiliśmy mikrofon w odpowiedniej odległości od drutu. Następnie uderzaliśmy młotkiem w koniec pręta i zapisywaliśmy wyniki uzykane w programie.  
 	\end{itemize}
-
-	\newpage
 	\section{Opracowanie danych pomiarowych}\label{sec:opr}
 	\subsection{Pomiary i ich niepewności.}
 		
-		Wszystkie wielkości mierzyliśmy niewielką ilość razy, dlatego dla każdej z nich przyjmujemy ocenę niepewności typu B, co w naszym przypadku będzie odpowiadać dokładności przyrządu pomiarowego.
-		\begin{table}[]
+		Wszystkie wielkości mierzyliśmy niewielką ilość razy, dlatego dla każdej z nich przyjmujemy ocenę niepewności typu B, co w naszym przypadku będzie odpowiadać dokładności przyrządu pomiarowego.\newline
+		W każdym przypadku $u(\lambda) = u(l) $ oraz $u(f) = 20 \text{ Hz}$.
+		\begin{table}[h!]
 			\centering
-			\caption{Miedz}
-			\label{tab:miedz}
-			\begin{tabular}{lllll}
-				& \textit{$d$} [mm]  & \textit{$d_w$} [mm]   & \textit{$l$} [mm]     & \textit{$m$} [kg]   \\
-				& 15,2(5)      & 17,95(5) & 1801(1) & 761(1) \\
+			\caption{Niepewności standardowe miedzi}
+			\label{tab:nsmiedz}
+			\begin{tabular}{l|l|l|l|l|l}
+				 Symbol & \textit{$d$} [mm]  & \textit{$d_w$} [mm]   & \textit{$l$} [mm]     &  \textit{$m$} [g]  \\ \hline
+				 Wartość(niepewność) & 15,2(5)      & 17,95(5) & 1801(1) & 761(1) \\
 			\end{tabular}
 		\end{table}
 	
-		\begin{table}[]
+		\begin{table}[h!]
 			\centering
-			\caption{Miedz}
-			\label{tab:miedz}
-			\begin{tabular}{lllll}
-				& \textit{$d$} [mm]  & \textit{$d_w$} [mm]   & \textit{$l$} [mm]     & \textit{$m$} [kg]   \\
-				& 15,2(5)      & 17,95(5) & 1801(1) & 761(1) \\
+			\caption{Niepewności standardowe aluminium}
+			\label{tab:nsaluminium}
+			\begin{tabular}{l|l|l|l|l}
+				Symbol & \textit{$h$} [mm]  & \textit{$d$} [mm]   & \textit{$l$} [mm]     &  \textit{$m$} [g]   \\ \hline
+				Wartość(niepewność) & 43,9(5)      & 4,9(5) & 999(1) & 23,891(1) \\
 			\end{tabular}
 		\end{table}
 		
-		\begin{table}[]
+		\begin{table}[h!]
 			\centering
-			\caption{Miedz}
-			\label{tab:miedz}
-			\begin{tabular}{lllll}
-				& \textit{$d$} [mm]  & \textit{$d_w$} [mm]   & \textit{$l$} [mm]     & \textit{$m$} [kg]   \\
-				& 15,2(5)      & 17,95(5) & 1801(1) & 761(1) \\
+			\caption{Niepewności standardowe stal}
+			\label{tab:nsstal}
+			\begin{tabular}{l|l|l|l|l|l}
+				Symbol & \textit{$h$} [mm]  & \textit{$b$} [mm]   & \textit{$c$} [mm]  & \textit{$b$} [mm]      & \textit{$m$} [g]   \\ \hline
+				Wartość(niepewność) &19,80(5) & 14,05(5)      & 14,20(5) & 1800(1) & 30,861(1) \\
 			\end{tabular}
 		\end{table}
 	
-		\begin{table}[]
+		\begin{table}[h!]
 			\centering
-			\caption{Miedz}
-			\label{tab:miedz}
-			\begin{tabular}{|l|l|l|l|l}
-				& \textit{$d$} [mm]  & \textit{$d_w$} [mm]   & \textit{$l$} [mm]     & \textit{$m$} [kg]   \\ \hline
-				& 15,2(5)      & 17,95(5) & 1801(1) & 761(1) \\
+			\caption{Niepewności standardowe mosiadz}
+			\label{tab:nsmosiadz}
+			\begin{tabular}{l|l|l|l|l}
+					Symbol & \textit{$d$} [mm]  & \textit{$h$} [mm]   & \textit{$l$} [mm]     & \textit{$m$} [g]   \\ \hline
+				Wartość(niepewność)	& 5,90(5)      & 31,10(5) & 1800(1) & 74(1) \\
 			\end{tabular}
 		\end{table}
+	Niepewność złożona powierzchni prostokąta:
+		\begin{equation}
+		u(P_P)=\sqrt{\bigg(\frac{\partial P_P}{\partial b}u(b)\bigg)^2 + \bigg(\frac{\partial P_p}{\partial a}u(a)\bigg)^2} = \sqrt{\bigg(bu(a)\bigg)^2+\bigg(au(b) \bigg)^2}
+			\end{equation}
+			
+	Niepewność złożona powierzchni koła:
+		\begin{equation}
+		u(V)=\sqrt{\bigg(\frac{\partial P_P}{\partial d}u(d)\bigg)^2} = \sqrt{\bigg(\frac{\pi}{2}du(d)\bigg)^2}
+		\end{equation}
 		
+	Niepewność złożona objętości:
+	\begin{equation}
+	u(V)=\sqrt{\bigg(\frac{\partial V}{\partial h}u(h)\bigg)^2 + \bigg(\frac{\partial V}{\partial P_p}u(P_p)\bigg)^2} = \sqrt{\bigg(hu(P_p)\bigg)^2+\bigg(P_pu(h) \bigg)^2}
+	\end{equation}
+	
+	Niepewność złożona gęstości:
+	\begin{equation}
+	u(\rho)=\sqrt{\bigg(\frac{\partial \rho}{\partial V}u(V)\bigg)^2+\bigg(\frac{\partial \rho}{\partial \lambda}u(\lambda)\bigg)^2}=\sqrt{\bigg(-\frac{m}{V^2}u(V)\bigg)^2+\bigg(\frac{1}{V}u(m) \bigg)^2}
+	\end{equation}
+	
+	Niepewność złożona prędkości:
+	\begin{equation}
+	u(v)=\sqrt{\bigg(\frac{\partial v}{\partial f}u(f)\bigg)^2+\bigg(\frac{\partial v}{\partial \lambda}u(\lambda)\bigg)^2}=\sqrt{\bigg(\lambda u(f)\bigg)^2+\bigg(f u(\lambda)\bigg)^2}
+	\end{equation}
+	
+	Niepewność złożona modułu Younga:
+	\begin{equation}
+			 u(E)=\sqrt{\bigg(\frac{\partial E}{\partial \rho}u(\rho)\bigg)^2+\bigg(\frac{\partial E}{\partial v}u(v)\bigg)^2} =
+	\sqrt{\bigg(v^2 u(\rho)\bigg)^2+\bigg(2 \rho v u(v)\bigg)^2}
+	\end{equation}
+
+
 	
 	\subsection{Opracowanie danych dla drutu mosiężnego.}\label{sec:drm}
 	\renewcommand*{\figurename}{Wykres} 
