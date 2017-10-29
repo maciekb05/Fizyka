@@ -51,7 +51,7 @@
 		
 		\item Na końcu dokonaliśmy pomiaru częstotliwości harmoniczych przy pomocy oscyloskopu w programie Zelscope. W tym celu umieśliśmy pręt na nitkach stojaka, by mógł swobonie drgać. Ustawiliśmy mikrofon w odpowiedniej odległości od drutu. Następnie uderzaliśmy młotkiem w koniec pręta i zapisywaliśmy wyniki uzykane w programie.  
 	\end{itemize}
-
+	\section{Opracowanie danych pomiarowych}\label{sec:opr}
 	\renewcommand*{\figurename}{Tabela} 
 	\setcounter{figure}{0}
 	\begin{figure}[!h]
@@ -78,8 +78,9 @@
 		\includegraphics[width=0.7\textwidth]{tabstal}
 		\label{fig:tabstal}
 	\end{figure}
+	\subsection{Analiza błedów}
+	Na czerwono zostały oznaczone pomiary, których prędkość znacząco odbiega od średniej. Utożsamiamy je z błedami grubymi, które najprawdopodniej są wynikiem błędnego odczytu częstotliwości. 
 
-	\section{Opracowanie danych pomiarowych}\label{sec:opr}
 	\subsection{Pomiary i ich niepewności.}
 		
 		Wszystkie wielkości mierzyliśmy niewielką ilość razy, dlatego dla każdej z nich przyjmujemy ocenę niepewności typu B, co w naszym przypadku będzie odpowiadać dokładności przyrządu pomiarowego.\newline
@@ -155,151 +156,10 @@
 	\end{equation}
 
 
-	
-	\subsection{Opracowanie danych dla drutu mosiężnego.}\label{sec:drm}
-	\renewcommand*{\figurename}{Wykres} 
-	\setcounter{figure}{1}
-	\begin{figure}[!h]
-		\centering
+	Korzystając z odpowiednich wzorów(zależnych od kszatłtu próbki) obliczamy niepewność złożoną modułu Younga dla wszystkich metali. 
 
-		\caption{Wykres zależności wydłużenia od siły dla drutu mosiężnego.}
-		\label{fig:wykmosiadz}
-	\end{figure}
+		
 
-	\begin{enumerate}[label=\alph*)]
-		
-		\item Analiza błędów.
-		
-		Nie stwierdziliśmy wystąpienia błędów grubych, gdyż na wykresie (\ref{fig:wykmosiadz}) nie zauważamy pomiarów odstających.
-		
-		\item Prawo przenoszenia niepewności.
-		
-		Wykorzystując regresję liniową, obliczamy wartość współczynnika $a$ prostej i  jej dokładność $u(a)$:
-		\begin{align}
-		a = 1,86 \cdot 10^{-5} \text{ }\mathrm{\frac{m}{N}},\label{a} \\
-		u(a) = 3,91 \cdot 10^{-7} \text{ }\mathrm{\frac{m}{N}},
-		\end{align}
-		Następnie wyznaczamy moduł Younga ze wzoru roboczego (\ref{eq:wzorroboczy}).
-		$$ E = 124 \text{ GPa} $$
-		Obliczając niepewność złożoną (\ref{eq:niepewnosczlozonamosiadz}) oraz rozszerzoną (\ref{eq:rozszerzonamosiadz}) dochodzimy do wyników: 
-		\begin{equation}
-		\label{eq:niepewnosczlozonamosiadz}
-		u_c(E) = \sqrt{ \left[ \frac{4}{\pi d^2a}u(l) \right]^2 + \left[ -\frac{8l}{\pi d^3 a}u(d) \right]^2 + \left[ -\frac{4l}{\pi d^2 a^2}u(a) \right]^2}
-		\end{equation}
-		$$ u_c(E) = 4,13 \text{ GPa,} $$
-		\begin{equation}
-		\label{eq:rozszerzonamosiadz}
-		U(E) = k\cdot u_c(E)
-		\end{equation}
-		$$ U(E) = 2 \cdot 4,13 \text{ }\mathrm{GPa} = 8,26 \text{ }\mathrm{GPa} $$
-		
-		Niepewość względna złożona (\ref{eq:niepewnosczlozonawzglmosiadz}) jest równa:
-		\begin{equation}
-		\label{eq:niepewnosczlozonawzglmosiadz}
-		\frac{u_c(E)}{E} = \sqrt{ \left[ \frac{u(l)}{l} \right]^2 + \left[ -2\frac{u(d)}{d} \right]^2 + \left[ -\frac{u(a)}{a} \right]^2}
-		\end{equation}
-		$$ \frac{u_c(E)}{E} = 3,34\% $$
-		
-		\item Zastosowanie niepewności rozszerzonej do oceny zgodności z wartością dokładną.
-		
-		Różnica pomiedzy obliczoną wartością modułu Younga ($E=123,58  \text{ }\mathrm{GPa}$), a wartością tabelaryczną wynosi:
-		\begin{equation}
-		\label{eq:roznicamosiadz}
-		|E - E_0| = \left|124 \text{ }\mathrm{GPa} - 100 \text{ }\mathrm{GPa}\right| = 24 \text{ }\mathrm{GPa}.
-		\end{equation}
-		$$
-		|E - E_0| > U(E)
-		$$
-		Wyniki pomiarów w przybliżeniu liniowe i niezgodny wynik mogą świadczyć o błędzie systematycznym. Było to złe wyzerowanie czujnika, dlatego każdy z pomiarów wskazuje niższą wartość wydłużenia drutu niż spodziewana. Błąd ten zauważyliśmy podczas wstępnej analizy pomiarów, dlatego wykonaliśmy kolejną serię pomiarów dla drutu mosiężnego.
-	\end{enumerate}
-
-	\subsection{Opracowanie danych dla drutu mosiężnego. Wyniki drugiej serii pomiarów.}
-	
-	\begin{figure}[!h]
-		\centering
-
-		\caption{Wykres zależności wydłużenia od siły dla drugiej serii pomiarów drutu mosiężnego.}
-		\label{fig:wykmosiadz2}
-	\end{figure}
-	
-	\begin{enumerate}[label=\alph*)]
-		\item Analiza błędów.
-		
-		Nie stwierdziliśmy wystąpienia błędów grubych, gdyż na wykresie (\ref{fig:wykmosiadz2}) nie zauważamy pomiarów odstających.
-		
-		\item Prawo przenoszenia niepewności.
-		
-		Analogicznie jak w podsekcji \ref{sec:drm} wyznaczamy współczynnik $a$ i wartość modułu Younga:
-		\begin{align}
-		a = 2,00 \cdot 10^{-5} \text{ }\mathrm{\frac{m}{N}},\label{a} \\
-		u(a) = 3,50 \cdot 10^{-7} \text{ }\mathrm{\frac{m}{N}},
-		\end{align}
-		$$ E = 116 \text{ GPa} $$
-		Obliczając niepewność (\ref{eq:niepewnosczlozonamosiadz}) oraz rozszerzoną (\ref{eq:rozszerzonamosiadz}) dochodzimy do wyników: 
-		$$ u_c(E) = 3,01 \text{ GPa,} $$
-		$$ U(E) = 2 \cdot 3,01 \text{ }\mathrm{GPa} = 6,02 \text{ }\mathrm{GPa} $$
-		
-		Niepewość względna złożona (\ref{eq:niepewnosczlozonawzglmosiadz}) jest równa:
-		$$ \frac{u_c(E)}{E} = 2,6\% $$
-		
-		\item Zastosowanie niepewności rozszerzonej do oceny zgodności z wartością dokładną.
-		
-		Różnica pomiedzy obliczoną wartością modułu Younga ($E=116  \text{ }\mathrm{GPa}$), a wartością tabelaryczną wynosi:
-		\begin{equation}
-		\label{eq:roznicamosiadz2}
-		|E - E_0| = \left|116 \text{ }\mathrm{GPa} - 100 \text{ }\mathrm{GPa}\right| = 16 \text{ }\mathrm{GPa}.
-		\end{equation}
-		$$
-		|E - E_0| > U(E)
-		$$
-		
-		
-	\end{enumerate}
-
-	\subsection{Opracowanie danych dla drutu stalowego.}
-	\begin{figure}[!h]
-		\centering
-%		\includegraphics[width=0.8\textwidth]{}
-		\caption{Wykres zależności wydłużenia od siły dla drutu stalowego.}
-		\label{fig:wykstal}
-	\end{figure}
-	
-	\begin{enumerate}[label=\alph*)]
-		\item Analiza błędów.
-		
-		Stwierdziliśmy wystąpienie dwóch pomiarów odstających, które możemy utożsamiać z błędami grubymi. Błędy te zaznaczylismy na wykresie (\ref{fig:wykstal}). Mogły one zostać spowodowane niewystarczającym wydłużeniem dla pierwszego pomiaru, a dla ostatniego pomiaru zbyt dużym naprężeniem, zbliżonym do granicy sprężystości, lub błędnym odczytem pomiaru z czujnika.
-		
-		\item Prawo przenoszenia niepewności.
-		
-		Podobnie jak dla drutu mosiężnego w podsekcji \ref{sec:drm} wyznaczamy współczynnik $a$ i wartość modułu Younga:
-		\begin{align}
-		a = 1,60 \cdot 10^{-5} \text{ }\mathrm{\frac{m}{N}},\label{a} \\
-		u(a) = 4,55 \cdot 10^{-7} \text{ }\mathrm{\frac{m}{N}},
-		\end{align}
-		$$ E = 176 \text{ GPa} $$
-		Obliczając niepewność złożoną (\ref{eq:niepewnosczlozonamosiadz}) oraz rozszerzoną (\ref{eq:rozszerzonamosiadz}) dochodzimy do wyników: 
-		$$ u_c(E) = 7,13 \text{ GPa,} $$
-		$$ U(E) = 2 \cdot 7,13 \text{ }\mathrm{GPa} = 14,26 \text{ }\mathrm{GPa} $$
-		
-		Niepewość względna złożona jest równa:
-		$$ \frac{u_c(E)}{E} = 4,03\% $$
-		
-		\item Zastosowanie niepewności rozszerzonej do oceny zgodności z wartością dokładną.
-		
-		Różnica pomiedzy obliczoną wartością modułu Younga ($E=176,47  \text{ }\mathrm{GPa}$), a wartością tabelaryczną wynosi:
-		\begin{equation}
-		\label{eq:roznicastal}
-		|E - E_0| = \left|176 \text{ }\mathrm{GPa} - 215 \text{ }\mathrm{GPa}\right| = 39 \text{ }\mathrm{GPa}.
-		\end{equation}
-		$$
-		|E - E_0| > U(E)
-		$$
-		
-		
-	\end{enumerate}
-	
-	
-	
 	\section{Podsumowanie}
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|c|}
