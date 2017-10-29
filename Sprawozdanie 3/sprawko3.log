@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.29)  29 OCT 2017 22:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.29)  29 OCT 2017 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -860,29 +860,24 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 LaTeX Warning: Text page 2 contains only floats.
 
 [2 <./tabmiedz.png> <./tabaluminium.png> <./tabmosiadz.png> <./tabstal.png>]
-[3]
-Overfull \hbox (8.32698pt too wide) in paragraph at lines 165--172
- [] 
- []
-
-[4] (./sprawko3.aux) ) 
+[3] [4] (./sprawko3.aux) ) 
 Here is how much of TeX's memory you used:
  5753 strings out of 493013
  79859 string characters out of 6136993
- 162966 words of memory out of 5000000
+ 161966 words of memory out of 5000000
  9160 multiletter control sequences out of 15000+600000
  40448 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,14n,42p,639b,305s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}<
-c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/type
-1/urw/symbol/usyr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.
-pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/20
-16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sprawko3.pdf (4 pages, 144334 bytes).
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.e
+nc}<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2016/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fonts/
+type1/urw/symbol/usyr.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texliv
+e/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sprawko3.pdf (4 pages, 144430 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
