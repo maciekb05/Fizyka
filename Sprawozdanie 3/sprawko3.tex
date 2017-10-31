@@ -49,21 +49,25 @@
 		\label{eq:predkosc}
 		v=\sqrt{\frac{E}{\rho}},
 	\end{equation}
-	który po przekształceniach pozwala nam obliczyć Moduł Younga danego materiału:
+	który po przekształceniach pozwala nam obliczyć moduł Younga danego materiału:
 	\begin{equation}
 	\label{eq:modul1}
 	E=\rho v^2.
 	\end{equation}
 	
 	Interferencja jest zjawiskiem nakładania się fal, co prowadzi do wzmocnień i wygaszeń amplitudy. Szczególnym przypadkiem interfencji jest fala stojąca, która powstaje w wyniku nałożenia się dwóch takich samych fal, poruszających się w tym samym kierunku, ale o przeciwynch zwrotach. Z takim przypadkiem mamy do czynienia w pręcie, gdzie interferują fala padająca i odbita. Długość fali stojącej wynosi: $\lambda = 2l$, gdzie l to odległość miedzy jej węzłami.
-	Korzystając z tej zależności możemy wyliczyć prędkość fali w pręcie jako:$v = 2l 
-	
+	Korzystając z tej zależności możemy wyliczyć prędkość fali w pręcie jako: $v = 2lf$.
+	Skąd wyproadzamy wzór roboczy na moduł Younga, z którego korzystamy w ćwiczeniu:
+	\begin{equation}
+		E = 4\rho l^2 f^2
+	\end{equation}
+	Szybka transformata Fouriera pozwala nam wyznaczyć częstotliwości kolejnych haramoniczych fali, których długości obliczamy jako: $\lambda=\frac{2l}{n},$gdzie $n$ to numer harmonicznej.
 	
 	
 	\section{Wykonanie ćwiczenia}
-	Ćwiczenie wykonywaliśmy dla drutów: mosiężnego, stalowego, miedzianego i aluminiowego. Dla każdego z nich wykonaliśmy nastepujące czynności:
+	Ćwiczenie wykonywaliśmy dla drutów: mosiężnego, stalowego, miedzianego i aluminiowego. Dla każdego z nich powtórzyliśmy nastepujące czynności:
 	\begin{itemize}
-		\item W pierwszym kroku dokonaliśmy pomiaru wymiarów próbki danego materiału w celu wyznaczenia jego objętości. W zależności od kształtu stosowaliśmy: taśmę mierniczą o dokładności $\pm1$ mm lub suwmiarkę $\pm0.05$ mm.
+		\item W pierwszym kroku dokonaliśmy pomiaru wymiarów próbki danego materiału w celu wyznaczenia jego objętości. W zależności od jej kształtu stosowaliśmy: taśmę mierniczą o dokładności $\pm1$ mm lub suwmiarkę $\pm0.05$ mm.
 		\item Następnie każdą próbkę zwarzyliśmy. Ze względu na różne wielkośc próbek używaliśmy wag o różnych dokładnościach( $\pm1$g lub $\pm0.001$g).
 		
 		\item W kolejnym kroku zmierzyliśmy długość pręta przy pomocy taśmy mierniczej.
@@ -181,19 +185,20 @@
 
 	\section{Podsumowanie}
 	\begin{center}
-		\begin{tabular}{|c|c|c|c|c|c|c|}
-			\hline Opis wielkości & $ E_0 \left[ \text{GPa} \right]$ & $E \left[ \text{GPa} \right]$ & $U(E) \left[ \text{GPa} \right]$ & $ \frac{u(E)}{E} $& $(0,9E_0-U(E); 1,1E_0 + U(E))$\\
-			\hline Mosiądz  & 100 &  100,3& 4,93 & 2,46 \% & (82 ;118) \\
-			\hline Stal & 210-220 & 215,5 & 5,55 & 1,29 \% & (84 ; 116) \\  
-			\hline Aluminium& 70 &  63,6&2,82  &  2,21 \% & (175 ; 256)\\ 
-			\hline  Miedź& 110-130 & 86,4  &  4,86 & 2,81\% & (175 ; 256)\\ 
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline Opis wielkości & $ E_0 \left[ \text{GPa} \right]$ & $E \left[ \text{GPa} \right]$ & $U(E) \left[ \text{GPa} \right]$ & $ \frac{u(E)}{E} $\\
+			\hline Mosiądz  & 100 &  100,3& 4,93 & 2,46 \%  \\
+			\hline Stal & 210-220 & 215,5 & 5,55 & 1,29 \%  \\  
+			\hline Aluminium& 70 &  63,6&2,82  &  2,21 \%  \\ 
+			\hline  Miedź& 110-130 & 86,4  &  4,86 & 2,81\% \\ 
 			\hline 
 		\end{tabular} 
 	\end{center}
 \vspace{1em}
 
 \begin{itemize}
-	\item Określenie poprawności wyników naszych doświadczeń jest trudne, ponieważ nie da się jednoznacznie określić wartości tabelarycznej dla danego metalu. Wynika to z nieznajomości dokładnego składu metalu (stopu), a także ze zużycia drutu. W naszych badaniach przyjmujemy rozrzut rzędu $\pm10\%$ dla wartości odczytanych z tabel fizycznych.
+	\item Zarówno dla mosiądzu jak i dla stali otrzymane przez nas wyniki pokrywają się z wartościami tabelarycznymi. 
+	 Określenie poprawności wyników naszych doświadczeń jest trudne, ponieważ nie da się jednoznacznie określić wartości tabelarycznej dla danego metalu. Wynika to z nieznajomości dokładnego składu metalu (stopu), a także ze zużycia drutu. W naszych badaniach przyjmujemy rozrzut rzędu $\pm10\%$ dla wartości odczytanych z tabel fizycznych.
 	
 	\item Zarówno dla pierwszych jak i drugich pomiarów dla mosiądzu obliczona wartość modułu wykracza poza przedział ($E_0-U(E), E_0+U(E)$). Po uwzględnieniu dziesięcioprocentowego rozrzutu drugą serię pomiarów możemy uznać za poprawną w zakresie wyznaczonej niepewności. Pierwsza seria pomiarów nadal daje wynik niepoprawny, co potwierdza nasze obawy co do błędu systematycznego.
 	

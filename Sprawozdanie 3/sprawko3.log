@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.29)  31 OCT 2017 21:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.29)  31 OCT 2017 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,32 +807,34 @@ Overfull \hbox (16.07762pt too wide) in paragraph at lines 31--38
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 63.
+[1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 70.
+
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
- [1{c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
 
-
-]
 <tabmiedz.png, id=13, 615.0478pt x 234.8775pt>
 File: tabmiedz.png Graphic file (type png)
  <use tabmiedz.png>
-Package pdftex.def Info: tabmiedz.png used on input line 76.
+Package pdftex.def Info: tabmiedz.png used on input line 83.
 (pdftex.def)             Requested size: 338.58632pt x 129.30128pt.
 
 <tabaluminium.png, id=14, 603.75563pt x 235.63031pt>
 File: tabaluminium.png Graphic file (type png)
  <use tabaluminium.png>
-Package pdftex.def Info: tabaluminium.png used on input line 82.
+Package pdftex.def Info: tabaluminium.png used on input line 89.
 (pdftex.def)             Requested size: 338.58632pt x 132.13902pt.
 
 <tabmosiadz.png, id=15, 611.28375pt x 235.63031pt>
 File: tabmosiadz.png Graphic file (type png)
  <use tabmosiadz.png>
-Package pdftex.def Info: tabmosiadz.png used on input line 88.
+Package pdftex.def Info: tabmosiadz.png used on input line 95.
 (pdftex.def)             Requested size: 338.58632pt x 130.5139pt.
 
 
@@ -841,15 +843,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <tabstal.png, id=16, 615.80063pt x 243.91125pt>
 File: tabstal.png Graphic file (type png)
  <use tabstal.png>
-Package pdftex.def Info: tabstal.png used on input line 94.
+Package pdftex.def Info: tabstal.png used on input line 101.
 (pdftex.def)             Requested size: 338.58632pt x 134.11066pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 97.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 104.
 [2 <./tabmiedz.png> <./tabaluminium.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -857,7 +862,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Here is how much of TeX's memory you used:
  5755 strings out of 493013
  79883 string characters out of 6136993
- 161982 words of memory out of 5000000
+ 162982 words of memory out of 5000000
  9162 multiletter control sequences out of 15000+600000
  40448 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -871,7 +876,7 @@ e1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public
 16/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2016/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on sprawko3.pdf (5 pages, 146398 bytes).
+Output written on sprawko3.pdf (5 pages, 146741 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
