@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.14)  10 NOV 2017 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.14)  10 NOV 2017 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,109 +818,102 @@ Overfull \hbox (16.07762pt too wide) in paragraph at lines 31--38
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 41.
-[1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 86.
-
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 54.
 (c:/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
+ [1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-LaTeX Warning: Reference `fig:tebmosiadz' on page 2 undefined on input line 96.
+]
+
+LaTeX Warning: Reference `fig:tebmosiadz' on page 2 undefined on input line 64.
 
 
 
-LaTeX Warning: Reference `fig:tebmosiadz2' on page 2 undefined on input line 96
+LaTeX Warning: Reference `fig:tebmosiadz2' on page 2 undefined on input line 64
 .
 
 
-LaTeX Warning: Reference `fig:tabstal' on page 2 undefined on input line 96.
+LaTeX Warning: Reference `fig:tabstal' on page 2 undefined on input line 64.
 
-<R1.png, id=13, 953.81343pt x 82.05656pt>
+<R1.png, id=14, 953.81343pt x 82.05656pt>
 File: R1.png Graphic file (type png)
 <use R1.png>
-Package pdftex.def Info: R1.png  used on input line 103. on input line 103.
+Package pdftex.def Info: R1.png  used on input line 71. on input line 71.
 Package pdftex.def Info: Requested size: 483.69687pt x 41.61288pt on input line
- 103.
-<R2.png, id=14, 984.67876pt x 86.57344pt>
+ 71.
+<R2.png, id=15, 984.67876pt x 86.57344pt>
 File: R2.png Graphic file (type png)
 <use R2.png>
-Package pdftex.def Info: R2.png  used on input line 110. on input line 110.
+Package pdftex.def Info: R2.png  used on input line 78. on input line 78.
 Package pdftex.def Info: Requested size: 483.69687pt x 42.52702pt on input line
- 110.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<R3.png, id=15, 985.43156pt x 85.82062pt>
+ 78.
+<R3.png, id=16, 985.43156pt x 85.82062pt>
 File: R3.png Graphic file (type png)
 <use R3.png>
-Package pdftex.def Info: R3.png  used on input line 117. on input line 117.
+Package pdftex.def Info: R3.png  used on input line 85. on input line 85.
 Package pdftex.def Info: Requested size: 483.69687pt x 42.1258pt on input line 
-117.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<R4.png, id=16, 988.44281pt x 85.82062pt>
+85.
+<R4.png, id=17, 988.44281pt x 85.82062pt>
 File: R4.png Graphic file (type png)
 <use R4.png>
-Package pdftex.def Info: R4.png  used on input line 124. on input line 124.
+Package pdftex.def Info: R4.png  used on input line 92. on input line 92.
 Package pdftex.def Info: Requested size: 483.69687pt x 41.99614pt on input line
- 124.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<R5.png, id=17, 987.69pt x 87.32625pt>
+ 92.
+<R5.png, id=18, 987.69pt x 87.32625pt>
 File: R5.png Graphic file (type png)
 <use R5.png>
-Package pdftex.def Info: R5.png  used on input line 131. on input line 131.
+Package pdftex.def Info: R5.png  used on input line 99. on input line 99.
 Package pdftex.def Info: Requested size: 483.69687pt x 42.76491pt on input line
- 131.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<R1+R2.png, id=18, 984.67876pt x 85.06781pt>
+ 99.
+<R1+R2.png, id=19, 984.67876pt x 85.06781pt>
 File: R1+R2.png Graphic file (type png)
 <use R1+R2.png>
-Package pdftex.def Info: R1+R2.png  used on input line 138. on input line 138.
+Package pdftex.def Info: R1+R2.png  used on input line 106. on input line 106.
 Package pdftex.def Info: Requested size: 483.69687pt x 41.78743pt on input line
- 138.
+ 106.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<R1zR2.png, id=19, 983.92593pt x 85.82062pt>
+<R1zR2.png, id=20, 983.92593pt x 85.82062pt>
 File: R1zR2.png Graphic file (type png)
 <use R1zR2.png>
-Package pdftex.def Info: R1zR2.png  used on input line 145. on input line 145.
+Package pdftex.def Info: R1zR2.png  used on input line 113. on input line 113.
 Package pdftex.def Info: Requested size: 483.69687pt x 42.18996pt on input line
- 145.
+ 113.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<(R1zR2)+R3.png, id=20, 986.9372pt x 88.07906pt>
+<(R1zR2)+R3.png, id=21, 986.9372pt x 88.07906pt>
 File: (R1zR2)+R3.png Graphic file (type png)
 <use (R1zR2)+R3.png>
-Package pdftex.def Info: (R1zR2)+R3.png  used on input line 153. on input line 
-153.
+Package pdftex.def Info: (R1zR2)+R3.png  used on input line 121. on input line 
+121.
 Package pdftex.def Info: Requested size: 483.69687pt x 43.1685pt on input line 
-153.
+121.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./R1.png>]
+[2 <./R1.png> <./R2.png> <./R3.png> <./R4.png> <./R5.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 164.
- [3 <./R2.png> <./R3.png> <./R4.png> <./R5.png> <./R1+R2.png> <./R1zR2.png>] [4
- <./(R1zR2)+R3.png>] [5] [6]
-Overfull \hbox (8.32698pt too wide) in paragraph at lines 327--334
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 132.
+ [3 <./R1+R2.png> <./R1zR2.png> <./(R1zR2)+R3.png>]
+
+LaTeX Warning: Reference `eq:wzorroboczy' on page 4 undefined on input line 172
+.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5]
+Overfull \hbox (8.32698pt too wide) in paragraph at lines 291--298
  [] 
  []
 
-[7] (./sprawko4.aux)
+[6] [7] (./sprawko4.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -929,13 +922,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5823 strings out of 492990
- 80878 string characters out of 6136333
- 158123 words of memory out of 5000000
- 9231 multiletter control sequences out of 15000+600000
- 42578 words of font info for 73 fonts, out of 8000000 for 9000
+ 5816 strings out of 492990
+ 80811 string characters out of 6136333
+ 157099 words of memory out of 5000000
+ 9228 multiletter control sequences out of 15000+600000
+ 39158 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,14n,42p,639b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,14n,42p,639b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1
@@ -945,7 +938,7 @@ b><c:/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2017/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2017/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on sprawko4.pdf (7 pages, 189999 bytes).
+Output written on sprawko4.pdf (7 pages, 186477 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream

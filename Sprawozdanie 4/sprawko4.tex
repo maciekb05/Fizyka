@@ -31,7 +31,7 @@
 		\begin{tabular}{lllllll}
 			\cline{1-6}
 			\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}EAiIB\\ Informatyka\end{tabular}} & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}Pęcak Tomasz\\ Bielech Maciej\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Rok\\ II\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Grupa\\ 3a\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Zespół\\ II\end{tabular}} &  \\ \cline{1-6}
-			\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}Pracownia\\ FIZYCZNA\\ WFiIS AGH\end{tabular}} & \multicolumn{4}{l|}{\begin{tabular}[c]{@{}l@{}}Temat:\\ \textbf{****************************************} \end{tabular}} & 
+			\multicolumn{1}{|c|}{\begin{tabular}[c]{@{}c@{}}Pracownia\\ FIZYCZNA\\ WFiIS AGH\end{tabular}} & \multicolumn{4}{l|}{\begin{tabular}[c]{@{}l@{}}Temat:\\ \textbf{Mostek Wheatstone'a} \end{tabular}} & 
 			\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}nr ćwiczenia:\\ 32\end{tabular}} &  \\ \cline{1-6}
 			\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}c@{}}Data wykonania:\\ 11.11.2017\end{tabular}} & \multicolumn{1}{c|}{\begin{tabular}[c]{@{}c@{}}Data oddania:\\ 14.11.2017\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Zwrot do poprawki:\\ \phantom{data poprawki}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Data oddania:\\  \phantom{data oddania}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Data zaliczenia:\\  \phantom{data zaliczenia}\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}OCENA:\\ \phantom{ocena}\end{tabular}} &  \\ \cline{1-6} 
 		\end{tabular}
@@ -41,45 +41,13 @@
 	\section{Wstęp}
 	Celem ćwiczenia było wyznaczenie wartości modułu Younga dla stali i mosiądzu przy wykorzystaniu prawa Hooke'a.
 	
-	Prawo Hooke'a definiuje, że odkształcenie sprężyste jest wprost proporcjonalne do przyłożonej siły.
-	
-	W ćwiczeniu badaliśmy przypadek, gdy siła jest prostopadła do przekroju poprzecznego drutu. W skutek tej siły zmienia się jego długość, co można opisać wzorem:
 	\begin{equation}
-	\label{eq:prawohooka}
-	\Delta l=\frac{Fl}{SE}.
+		\label{eq:prawohooka}
+		\Delta l=\frac{Fl}{SE}.
 	\end{equation}
 	
 	Moduł Younga ($E$) to współczynniki sprężystości podłużnej. Określa on własności sprężyste ciała stałego, charakteryzując podatność materiału na odkształcenia podłużne: rozciąganie, ściskanie, zgniatanie. Jego jednostką jest pascal. Możemy go obliczyć znając naprężenie $\sigma$ występujące w danym obszarze ciała oraz względne odształcenie liniowe $\epsilon$, co opisuje wzór: 
-	\begin{equation}
-	\label{eq:modulYounga}
-	E=\frac{\sigma}{\epsilon}.
-	\end{equation}
 	
-	
-	Wartość modułu Younga mówi nam jak duże naprężenie należaoby przyłożyć, aby zwiększyć dwukrotnie długość drutu. Taka zależność nie ma jednak odwzierciedlenia w praktyce, ponieważ już przy mniejszych naprężeniach ciało ulega nieodwracalnym zmianom. Tę charakterystykę dla metali przedstawia wykres (\ref{fig:wykMod}).
-	\renewcommand*{\figurename}{Wykres} 
-	\setcounter{figure}{0}
-	\begin{figure}[!h]
-		\begin{center}
-			%\includegraphics[width=0.5\textwidth]{wykresModul}
-		\end{center}
-		\caption{Charakterystyka Modułu Younga. Źródło: pl.wikipedia.org}
-		\label{fig:wykMod}
-	\end{figure}
-	Jak widzimy początkowo wydłużenie zależy liniowo od przyłożonej siły. Po uzyskaniu naprężenia, zwanego granicą sprężystości, ciało traci własności sprężyste i nie wraca do poprzedniego kształtu.
-	
-	W naszym doświadczeniu badamy wydłużenia, które spełniają prawo Hooke'a. Ma to przełożenie na dobierane obciążenie w zależności od wybranego materiału, ponieważ dla ciał o niższym module Younga
-	granica sprężystości jest mniejsza. 
-	
-	Zgodnie z prawem Hooke'a zależność $\Delta l(F)$ jest liniowa, dlatego można ją opisać jako: $\Delta l(F)=aF+b$. Współczynnik kierunkowy to tangens kąta nachylenia prostej do osi OX, co opisujemy jako $a=\frac{\Delta l}{mg}$. Jest to równoznaczne z $a=\frac{l}{ES}$ (na podstawie Prawa Hooke'a, wzór \ref{eq:prawohooka}), więc
-	$E=\frac{l}{aS}$. Podstawiając do równania $S=\frac{\pi d^2}{4}$ otrzymujemy wzór roboczy na moduł Younga:
-	
-	\begin{equation}
-	\label{eq:wzorroboczy}
-	E = \frac{4l}{\pi d^2 a} \text{.}
-	\end{equation}
-	
-	Wartość współczynnika \textit{a} oraz jego niepewność \textit{u(a)} wyznaczymy korzystając z regresji liniowej.
 	\section{Wykonanie ćwiczenia}
 	Ćwiczenie wykonywaliśmy dla drutów: mosiężnego i stalowego. Dla każdego z nich wykonaliśmy nastepujące czynności:
 	\begin{itemize}
@@ -149,7 +117,7 @@
 	\begin{figure}[!h]
 		\centering
 		\begin{center}
-		\caption{Pomiary oporu mieszanego (rezystory 1 i 2 są połączone równolegle,a rezystor 3 połączony jest względem nich szeregowo)}
+		\caption{Pomiary oporu mieszanego połączenia rezystorów 1, 2 i 3}
 		\includegraphics[width=\textwidth]{(R1zR2)+R3}
 		\label{fig:(r1zr2)+r3}
 		\end{center}
@@ -315,12 +283,8 @@
 		\end{equation}
 		$$
 		|E - E_0| > U(E)
-		$$
-		
-		
+		$$	
 	\end{enumerate}
-	
-	
 	
 	\section{Podsumowanie}
 	\begin{center}
@@ -340,7 +304,6 @@
 	\item Zarówno dla pierwszych jak i drugich pomiarów dla mosiądzu obliczona wartość modułu wykracza poza przedział ($E_0-U(E), E_0+U(E)$). Po uwzględnieniu dziesięcioprocentowego rozrzutu drugą serię pomiarów możemy uznać za poprawną w zakresie wyznaczonej niepewności. Pierwsza seria pomiarów nadal daje wynik niepoprawny, co potwierdza nasze obawy co do błędu systematycznego.
 	
 	\item Podobnie jak w przypadku drugiej serii pomiarów dla mosiądzu wartość modułu Younga dla stali wykracza poza $E_0 \pm U(E)$, lecz po uwzględnieniu dziesięcioprocentowego rozrzutu od wartości tablicowej możemy uznać obliczoną wartość za poprawną w zakresie wyznaczonej niepewności.
-	
 \end{itemize}
 
 \end{document}
