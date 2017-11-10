@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.14)  10 NOV 2017 21:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.10.14)  10 NOV 2017 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -856,38 +856,38 @@ Package pdftex.def Info: Requested size: 483.69687pt x 42.52702pt on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<R3.png, id=15, 986.18437pt x 87.32625pt>
+<R3.png, id=15, 985.43156pt x 85.82062pt>
 File: R3.png Graphic file (type png)
 <use R3.png>
 Package pdftex.def Info: R3.png  used on input line 117. on input line 117.
-Package pdftex.def Info: Requested size: 483.69687pt x 42.83154pt on input line
- 117.
+Package pdftex.def Info: Requested size: 483.69687pt x 42.1258pt on input line 
+117.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<R4.png, id=16, 984.67876pt x 85.82062pt>
+<R4.png, id=16, 988.44281pt x 85.82062pt>
 File: R4.png Graphic file (type png)
 <use R4.png>
 Package pdftex.def Info: R4.png  used on input line 124. on input line 124.
-Package pdftex.def Info: Requested size: 483.69687pt x 42.15721pt on input line
+Package pdftex.def Info: Requested size: 483.69687pt x 41.99614pt on input line
  124.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<R5.png, id=17, 986.9372pt x 85.82062pt>
+<R5.png, id=17, 987.69pt x 87.32625pt>
 File: R5.png Graphic file (type png)
 <use R5.png>
 Package pdftex.def Info: R5.png  used on input line 131. on input line 131.
-Package pdftex.def Info: Requested size: 483.69687pt x 42.06161pt on input line
+Package pdftex.def Info: Requested size: 483.69687pt x 42.76491pt on input line
  131.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<R1+R2.png, id=18, 987.69pt x 85.82062pt>
+<R1+R2.png, id=18, 984.67876pt x 85.06781pt>
 File: R1+R2.png Graphic file (type png)
 <use R1+R2.png>
 Package pdftex.def Info: R1+R2.png  used on input line 138. on input line 138.
-Package pdftex.def Info: Requested size: 483.69687pt x 42.02757pt on input line
+Package pdftex.def Info: Requested size: 483.69687pt x 41.78743pt on input line
  138.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -945,7 +945,7 @@ b><c:/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2017/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2017/texmf-dist/fonts/t
 ype1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on sprawko4.pdf (7 pages, 185890 bytes).
+Output written on sprawko4.pdf (7 pages, 189999 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
