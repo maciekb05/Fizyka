@@ -235,13 +235,14 @@
 				\hline 
 			\end{tabular} 
 		\end{center}
+		Można zauważyć, że wyniki dla połączenia szeregowego ($R_{z_1}$) i mieszanego ($R_{z_3}$) są zgodne w granicach wyznaczonych niepewności, lecz wynik połączenia równoległego ($R_{z_2}$) nie jest zgodny.
 	
 	\end{enumerate}
 	
 	\section{Podsumowanie}
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|}
-			\hline Opis wielkości & Opór wyznaczony $[\mathrm{\Omega}]$ & $u(R_x)$ $[\mathrm{\Omega}]$ &  $ \frac{u(E)}{E} $ $[\%]$ \\
+			\hline Opis wielkości & Opór wyznaczony $R_x$ $[\mathrm{\Omega}]$ & $u(R_x)$ $[\mathrm{\Omega}]$ &  $ \frac{u(R_x)}{R_x} $ $[\%]$ \\
 			\hline $R_1$ & 12,553 & 0,024 & 0,19  \\
 			\hline $R_2$ & 34,36 & 0,15 & 0,45  \\
 			\hline $R_3$ & 70,31 & 0,15 & 0,21  \\
@@ -256,11 +257,9 @@
 \vspace{1em}
 
 \begin{itemize}
-	\item Określenie poprawności wyników naszych doświadczeń jest trudne, ponieważ nie da się jednoznacznie określić wartości tabelarycznej dla danego metalu. Wynika to z nieznajomości dokładnego składu metalu (stopu), a także ze zużycia drutu. W naszych badaniach przyjmujemy rozrzut rzędu $\pm10\%$ dla wartości odczytanych z tabel fizycznych.
-	
-	\item Zarówno dla pierwszych jak i drugich pomiarów dla mosiądzu obliczona wartość modułu wykracza poza przedział ($E_0-U(E), E_0+U(E)$). Po uwzględnieniu dziesięcioprocentowego rozrzutu drugą serię pomiarów możemy uznać za poprawną w zakresie wyznaczonej niepewności. Pierwsza seria pomiarów nadal daje wynik niepoprawny, co potwierdza nasze obawy co do błędu systematycznego.
-	
-	\item Podobnie jak w przypadku drugiej serii pomiarów dla mosiądzu wartość modułu Younga dla stali wykracza poza $E_0 \pm U(E)$, lecz po uwzględnieniu dziesięcioprocentowego rozrzutu od wartości tablicowej możemy uznać obliczoną wartość za poprawną w zakresie wyznaczonej niepewności.
+	\item Mostek Wheatstone'a umożliwia mierzenie wartości oporu rezystorów, lub ich różnych połączeń. Pomiar ten jest dokładny nie uwzględniając spadków napięcia na przewodach służacych do odpowiedniego połączenia układu.
+	\item Dzięki powtórzeniu pomiarów dla dziesięciu różnych ustawień opornicy dekadowej, udało się uzyskać bardzo dokładne wyniki, których błąd względny nie przekracza 0,5 \%. 
+	\item Niezgodność porównania wartości obliczonej i wyznaczonej oporu rezystorów połaczonych równolegle może być spowodowana poprzej konieczność przebudowania układu pomiarowego (dodanie kolejnych przewodów, które posiadają swoją rezystancję).
 \end{itemize}
 
 \end{document}
