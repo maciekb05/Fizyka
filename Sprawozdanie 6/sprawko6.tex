@@ -14,11 +14,15 @@
 \usepackage{wrapfig}
 \usepackage{enumitem}
 \usepackage{tabularx}
+\usepackage{amsmath}
+\DeclareMathOperator{\tg}{tg}
+\newcommand{\tgx}{\tg x}
 
 \title{Moduł Younga}
 \author{Pęcak Tomasz, Bielech Maciej}
 
 \begin{document}
+	
 	
 	\renewcommand*{\figurename}{Rysunek} 
 	\newgeometry{tmargin=2cm, bmargin=2cm, lmargin=2cm, rmargin=2cm}
@@ -39,53 +43,53 @@
 	 \hspace{5mm}
 
 	\section{Wstęp}
-	Celem ćwiczenia było wyznaczenie względnego wpółczynnika załamania światła między powietrzem a szkłem i powietrzem a szkłem akrylowym.
+	Celem ćwiczenia było wyznaczenie względnego wpółczynnika załamania światła między powietrzem, a~szkłem i powietrzem, a~szkłem akrylowym.
 	
-	Wiązka światła padając na ośrodek inny niż ten, w którym rozchodzi się pierwotnie, na powierchni graniczej zostaje częściowo odbita, a częsciowo, ulegając załamaniu, przechodzi do innego ośrodka.
-	W XVII wieku Snellius sformułował prawo załamania światła. Polega ono na zakrzywieniu promieni świetlny przy przechodzneniu z jedego ośrodka do drugiego. Łączy ono ze sobą kąt padania ($\alpha$) na powierzchnię rograniczającą dwa ośrodki i kąt załamania powstający ($\beta$), gdy promień rozchodzi się w drugim ośrodku. Możemy je zapisać jako:
+	Wiązka światła padając na ośrodek inny niż ten, w którym rozchodzi się pierwotnie, na powierchni graniczej zostaje częściowo odbita, a częsciowo, ulegając załamaniu, przechodzi do innego ośrodka. Zjawisko załamania polega na zakrzywieniu promieni świetlny przy przechodzneniu z jedego ośrodka do drugiego. W XVII wieku Snellius sformułował prawo załamania światła. Łączy ono kąt padania $\alpha$ na powierzchnię rograniczającą dwa ośrodki i kąt załamania $\beta$ powstający, gdy promień rozchodzi się w drugim ośrodku. Możemy je zapisać jako:
 	\begin{equation}
 		n=\frac{\sin \alpha}{\sin \beta},
 	\end{equation}
 	gdzie n jest współczynnikiem załamania ośrodka drugiego względem pierwszego.
 	
-	W celu wyznaczenia $n$ przeanalizujmy schemat (rysunek \ref{fig:schemat}) powstawania obrazu pozornego $O_1$ punktu $O$ leżacego na dolnej powierzchni płytki płaskorównoległej. 
+	W celu wyznaczenia $n$ przeanalizujmy schemat (rysunek \ref{fig:schemat}) powstawania obrazu pozornego $O_1$ punktu~$O$~leżacego na dolnej powierzchni płytki płaskorównoległej. 
 	\begin{center}
 	
 			\begin{figure}[!h]
 				\centering
 				\includegraphics[width=0.6\textwidth]{schemat_zalamanie}
-				\caption{Schemat powstawania obrazu pozornego $O_1$ dolnej częsci powierchni płytki }
+				\caption{Schemat powstawania obrazu pozornego $O_1$ }
 				\label{fig:schemat}
 		\end{figure}
 	\end{center}
 	
 	Dla użytego przez nas mikroskopu wartości kątów $\alpha$ i $\beta$ są niewielkie, ponieważ patrzymy na płytkę prawie prostopadle. Dlatego możemy przyjąć następujące zależności:
 	\begin{equation}
-		\frac{\sin \alpha}{\cos \beta}=\frac{ \alpha}{ \beta}=\frac{\tan \alpha}{\tan \beta},
+		\frac{\sin \alpha}{\cos \beta}\approx\frac{ \alpha}{ \beta}\approx\frac{\tg \alpha}{\tg \beta},
 	\end{equation}
 	więc
 	\begin{equation}
-		n=\frac{\tan \alpha}{\tan \beta}.
+		n\approx\frac{\tg \alpha}{\tg \beta}.
 	\end{equation}
 	Analizując funkcje trygonometryczne kątów przedstawionych na schemacie otrzymujemy:
-	$\tan \alpha = \frac{\text{AB}}{h}$ oraz $\tan \beta = \frac{\text{AB}}{d}$.
-	Podsumowując te zależności otrzymujemy wzór roboczy na względny współczynnik załamania między szkłem a materiałem płytki dla naszego doświadczenia:
+	$\tg \alpha = \frac{\text{AB}}{h}$ oraz $\tg \beta = \frac{\text{AB}}{d}$.
+	Podsumowując te zależności otrzymujemy wzór roboczy na względny współczynnik załamania między szkłem a materiałem płytki:
 	\begin{equation}
-		n=\frac{\frac{\text{AB}}{h}}{\frac{\text{AB}}{d}}=\frac{d}{h}.
+	\label{eq:roboczy}
+		n\approx\frac{\frac{\text{AB}}{h}}{\frac{\text{AB}}{d}}=\frac{d}{h}.
 	\end{equation} 
 	
 	  	
 		
 	\section{Wykonanie ćwiczenia}
-	Ćwiczenie przeprowadzono dla dwóch płytek wykonanych z różnych materiałów (pleksiglas i szkło).
+	Ćwiczenie przeprowadzono dla dwóch płytek wykonanych z różnych materiałów (szkło i  szkło akrylowe).
 	Dla każdej płytki wykonano następujące czynności:
 	\begin{itemize}
 		\item W pierwszym kroku przy pomocy markera narysowano na płytce trzy krzyżyki w równej odległosci od siebie.
 		W ten sposób, aby po jednej stronie przeźroczystej płytki znalazło się jedno ramię krzyżyka.
 		\item 
-			Przy użyciu śruby mikrometrycznej dokonano pomiaru grubości płtki w 
+			Przy użyciu śruby mikrometrycznej dokonano pomiaru grubości płytki w 
 			środkach każdego krzyżka.
-		\item Zamontowano płytki w uchywcie mikroskopu. 
+		\item Zamontowano płytkę w uchywcie mikroskopu. 
 		\item Przy pomocy pokrętła regulowano położenie stolika, tak aby uzyskać ostry obraz 
 		górnego ramienia pierwszego krzyżka.  Odczytano pomiar z mikroskopu. Dwukrotnie zmieniono położenie płytki i powtórzono pomiary dla górnego obrazu.
 		\item Następnie dokonano trzech pomiarów dla dolnego ramienia pierwszego krzyżyka.
@@ -97,7 +101,16 @@
 	\section{Opracowanie danych pomiarowych}\label{sec:opr}
 	\begin{enumerate}[label=\alph*)]
 		
-		\item Pomiary. Wyniki pomiarów zapisano w tabelach (\ref{tab:szklo} i \ref{tab:pleksi})
+		\item Pomiary.
+		
+		\begin{itemize}
+			\item szkło
+			
+			$d=2,96 \text{ [mm]}$ 
+			
+			$h_{sr}=1,94 \text{ [mm]}$ 
+		\end{itemize}
+		
 		\begin{table}[!h]
 			\caption{Szkło}
 			\label{tab:szklo}
@@ -117,6 +130,14 @@
 				\end{tabular} 
 			\end{center}
 		\end{table}
+		\begin{itemize}
+			\item szkło akrylowe
+			
+			$d=3,86 \text{ [mm]}$ 
+			
+			$h_{sr}=2,57 \text{ [mm]}$
+			
+		\end{itemize}
 		\begin{table}[!h]
 			\caption{Szkło akrylowe}
 			\label{tab:pleksi}
@@ -137,28 +158,29 @@
 			\end{center}
 		\end{table}
 		
-		\begin{itemize}
-			\item szkło
-			
-				$d=2,96 \text{ [mm]}$ 
-				
-				$h=1,94 \text{ [mm]}$ 
-			\item szkło akrylowe
-			
-				$d=3,86 \text{ [mm]}$ 
-				
-				$h=2,57 \text{ [mm]}$
-				
-		\end{itemize}
+		
+		
 		
 		\item Analiza błędów.
-		Nie stwierdzono wystąpienia błędów grubych.
+		Nie stwierdzono wystąpienia błędów grubych, ponieważ żadna wartość grubości pozornej $h$ nie odbiega znacząco od średniej grubości $h_{sr}$.
 		
-		\item Obliczenie wartości współczynnika załamania dla szkła i szkła akrylowego. Zapisanie wyników w tabeli~(\ref{tab:zestawienie}).
+		\item Obliczenie wartości współczynnika załamania dla szkła i szkła akrylowego. 
 		
-		\item Ze względu na to, że pomiaru grubości rzeczywistej płytek ($d$) dokonano niewielką ilość razy, wykorzystano oszacowanie niepewności typu B. Przyjęto niepewność ($u(d)$) równą niepewności znamionowej śruby mikrometrycznej. Wyniki zapisano w tabeli (\ref{tab:niephd}).
+		Korzystając ze wzoru roboczego (\ref{eq:roboczy}) obliczono współczynniki załamania i zapisano wyniki w tabeli~(\ref{tab:zestawienie}).
+		\begin{itemize}
+			\item szkło
+			$$
+			n=\frac{2,96}{1,94}\approx1,53
+			$$
+			\item szkło akrylowe
+			$$
+			n=\frac{3,86}{2,57}\approx1,50
+			$$
+		\end{itemize}
 		
-		\item Pomiaru grubości pozornej ($h$) dokonano 9 razy, dlatego przyjęto oszacowanie niepewności typu A. Wyniki zapisano w tabeli~(\ref{tab:niephd}).
+		\item Ze względu na to, że pomiaru grubości rzeczywistej płytek $d$ dokonano niewielką ilość razy, wykorzystano oszacowanie niepewności typu B. Przyjęto niepewność $u(d)$ równą niepewności znamionowej śruby mikrometrycznej.
+		
+		\item Pomiaru grubości pozornej $h$ dokonano 9 razy, dlatego przyjęto oszacowanie niepewności typu A.
 		
 		\begin{table}[!h]
 			\caption{Niepewności pomiarowe grubości rzeczywistej i pozornej}
@@ -175,7 +197,7 @@
 		
 		\item Niepewności wyliczenia współczynnika załamania.
 		
-		Do wyznacznia niepewności wyliczenia współczynnika załamania wykorzystano prawo przenoszenia niepewności za pomocą wzoru:
+		Do wyznacznia niepewności bezwzględnej współczynnika załamania wykorzystano prawo przenoszenia niepewności:
 		
 		\begin{equation}
 		\label{eq:niepewnosczlozona}
@@ -197,24 +219,26 @@
 		\item W celu sprawdzenia zgodności otrzymanych wyników z wartościami dokładnymi obliczono niepewność
 		rozszerzoną jako $U(n) = 2 \cdot u(n)$.
 		
-		\item Otrzymano następujące wyniki:
-		\begin{table}[!h]
-			\caption{Zestawienie wyników}
-			\label{tab:zestawienie}
-			\begin{center}
-				\begin{tabular}{|c|c|c|p{0.12\linewidth}|p{0.15\linewidth}|c|}
-					\hline Rodzaj materiału & $n$ obliczone & $n_0$ tablicowe & niepewność złożona $u(n)$ & niepewność rozszerzona $U(n)$ & $(n_0-U(n); n_0+U(n))$ \\
-					\hline szkło & 1,53 & 1,50–1,54 & 0,01 & 0,02 & $(1,48; 1,56)$ \\
-					\hline szkło akrylowe & 1,50 & 1,49 & 0,01 & 0,02 & $(1,47; 1,51)$ \\  
-					\hline 
-				\end{tabular} 
-			\end{center}
-		\end{table}
-
-	
+		~
+		
+		~
 	\end{enumerate}
 	
 	\section{Podsumowanie}
+	
+	\begin{table}[!h]
+		\caption{Zestawienie wyników}
+		\label{tab:zestawienie}
+		\begin{center}
+			\begin{tabular}{|c|c|c|p{0.12\linewidth}|p{0.15\linewidth}|c|}
+				\hline Rodzaj materiału & $n$ obliczone & $n_0$ tablicowe & niepewność złożona $u(n)$ & niepewność rozszerzona $U(n)$ & $(n_0-U(n); n_0+U(n))$ \\
+				\hline szkło & 1,53 & 1,50–1,54 & 0,01 & 0,02 & $(1,48; 1,56)$ \\
+				\hline szkło akrylowe & 1,50 & 1,49 & 0,01 & 0,02 & $(1,47; 1,51)$ \\  
+				\hline 
+			\end{tabular} 
+		\end{center}
+	\end{table}
+
 	\begin{itemize}
 		\item Wyznaczanie współczynnika załamania światła dla ciał stałych metodą pomiaru grubości pozornej płytki za pomocą mikroskopu okazało się metodą dokładną. Wyniki zarówno dla szkła jak i szkła akrylowego (tabela \ref{tab:zestawienie}) są poprawne w granicach wyznaczonych niepewności.
 		
