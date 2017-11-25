@@ -80,7 +80,7 @@
 		górnego ramienia pierwszego krzyżka.  Odczytano pomiar z mikroskopu. Dwukrotnie zmieniono położenie płytki i powtórzono pomiary dla górnego obrazu.
 		\item Następnie dokonano trzech pomiarów dla dolnego ramienia pierwszego krzyżyka.
 		\item Przesunięto płytkę i dokonano analogicznych pomiarów dla drugiego i trzeciego krzyżyka.
-		\item Uzykane wyniki naniesiono do tabeli ().  
+		\item Uzykane wyniki naniesiono do tabeli (\ref{tab:szklo} i \ref{tab:pleksi}).  
 	\end{itemize}
 	
 
@@ -127,6 +127,20 @@
 			\end{center}
 		\end{table}
 		
+		\begin{itemize}
+			\item szkło
+			
+				$d=2,96 \text{ [mm]}$ 
+				
+				$h=1,94 \text{ [mm]}$ 
+			\item szkło akrylowe
+			
+				$d=3,86 \text{ [mm]}$ 
+				
+				$h=2,57 \text{ [mm]}$
+				
+		\end{itemize}
+		
 		\item Analiza błędów.
 		Nie stwierdzono wystąpienia błędów grubych.
 		
@@ -170,16 +184,18 @@
 			\end{center}
 		\end{table}
 		
+		\item W celu sprawdzenia zgodności otrzymanych wyników z wartościami dokładnymi obliczono niepewność
+		rozszerzoną jako $U(n) = 2 \cdot u(n)$.
 		
 		\item Otrzymano następujące wyniki:
 		\begin{table}[!h]
 			\caption{Zestawienie wyników}
 			\label{tab:zestawienie}
 			\begin{center}
-				\begin{tabular}{|c|c|c|c|}
-					\hline Rodzaj materiału & $n$ obliczone & $n$ tablicowe & niepewność złożona $u(n)$ \\
-					\hline szkło & 1,53 & 1,50–1,54 & 0,01 \\
-					\hline szkło akrylowe & 1,50 & 1,49 & 0,01 \\  
+				\begin{tabular}{|c|c|c|p{0.12\linewidth}|p{0.15\linewidth}|c|}
+					\hline Rodzaj materiału & $n$ obliczone & $n_0$ tablicowe & niepewność złożona $u(n)$ & niepewność rozszerzona $U(n)$ & $(n_0-U(n); n_0+U(n))$ \\
+					\hline szkło & 1,53 & 1,50–1,54 & 0,01 & 0,02 & $(1,48; 1,56)$ \\
+					\hline szkło akrylowe & 1,50 & 1,49 & 0,01 & 0,02 & $(1,47; 1,51)$ \\  
 					\hline 
 				\end{tabular} 
 			\end{center}
@@ -190,8 +206,8 @@
 	
 	\section{Podsumowanie}
 	\begin{itemize}
-		\item Wyznaczanie współczynnika załamania światła dla ciał stałych metodą pomiaru grubości pozornej płytki za pomocą mikroskopu okazało się metodą dokładną. Wyniki zarówno dla szkła jaki i szkła akrylowego (\ref{tab:zestawienie}) są poprawne w granicach wyznaczonych niepewności.
+		\item Wyznaczanie współczynnika załamania światła dla ciał stałych metodą pomiaru grubości pozornej płytki za pomocą mikroskopu okazało się metodą dokładną. Wyniki zarówno dla szkła jak i szkła akrylowego (tabela \ref{tab:zestawienie}) są poprawne w granicach wyznaczonych niepewności.
 		
-		\item Dzięki powtórzeniu pomiaru w dziewięciu różnych miejscach tej samej płytki, udało się uzyskać bardzo dokładne wyniki, których błąd względny nie przekracza 0,6 \% (\ref{tab:niepewnosci}).
+		\item Dzięki powtórzeniu pomiaru w dziewięciu różnych miejscach tej samej płytki, udało się uzyskać bardzo dokładne wyniki, których błąd względny nie przekracza 0,6 \% (tabela \ref{tab:niepewnosci}).
 	\end{itemize}
 \end{document}
