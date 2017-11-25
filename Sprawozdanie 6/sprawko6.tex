@@ -65,7 +65,7 @@
 	
 		
 	\section{Wykonanie ćwiczenia}
-	Ćwiczenie wykonano dla dwóch płytek wykonanych z różnych materiałów (pleksiglas i szkło).
+	Ćwiczenie przeprowadzono dla dwóch płytek wykonanych z różnych materiałów (pleksiglas i szkło).
 	Dla każdej płytki wykonano następujące czynności:
 	\begin{itemize}
 		\item W pierwszym kroku przy pomocy markera narysowano na płytce trzy krzyżyki w równej odległosci od siebie.
@@ -83,32 +83,105 @@
 	
 
 	\section{Opracowanie danych pomiarowych}\label{sec:opr}
-	\subsection{Pomiary i ich niepewności.}
-		
-	
- 
-	
-	\subsection{Opracowanie danych.}\label{sec:drm}
 	\begin{enumerate}[label=\alph*)]
 		
+		\item Pomiary. Wyniki pomiarów zapisano w tabelach (\ref{tab:szklo} i \ref{tab:pleksi})
+		\begin{table}[!h]
+			\caption{Szkło}
+			\label{tab:szklo}
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline lp. & $a_d$  [mm] & $a_g$ [mm] & $h = a_d - a_g$ [mm]  \\
+					\hline 1 & 8,00 & 6,05 & 1,95 \\
+					\hline 2 & 7,95 & 6,00 & 1,95 \\
+					\hline 3 & 7,97 & 6,03 & 1,94 \\
+					\hline 4 & 7,94 & 5,97 & 1,97 \\
+					\hline 5 & 7,98 & 6,03 & 1,95 \\
+					\hline 6 & 7,96 & 6,07 & 1,89 \\
+					\hline 7 & 7,99 & 6,08 & 1,91 \\
+					\hline 8 & 7,98 & 6,02 & 1,96 \\
+					\hline 9 & 7,93 & 6,01 & 1,92 \\
+					\hline 
+				\end{tabular} 
+			\end{center}
+		\end{table}
+		\begin{table}[!h]
+			\caption{Szkło akrylowe}
+			\label{tab:pleksi}
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline lp. & $a_d$  [mm] & $a_g$ [mm] & $h = a_d - a_g$ [mm]  \\
+					\hline 1 & 7,63 & 5,09 & 2,54 \\
+					\hline 2 & 7,64 & 5,07 & 2,57 \\
+					\hline 3 & 7,66 & 5,10 & 2,56 \\
+					\hline 4 & 7,68 & 5,09 & 2,59 \\
+					\hline 5 & 7,68 & 5,15 & 2,53 \\
+					\hline 6 & 7,66 & 5,12 & 2,54 \\
+					\hline 7 & 7,71 & 5,10 & 2,61 \\
+					\hline 8 & 7,74 & 5,12 & 2,62 \\
+					\hline 9 & 7,69 & 5,14 & 2,55 \\
+					\hline 
+				\end{tabular} 
+			\end{center}
+		\end{table}
+		
 		\item Analiza błędów.
+		Nie stwierdzono wystąpienia błędów grubych.
 		
+		\item Obliczenie wartości współczynnika załamania dla szkła i szkła akrylowego. Zapisanie wyników w tabeli~(\ref{tab:zestawienie}).
 		
-		\item Obliczenie wartości współczynnika załamania dla szkła i pleksiglasu.
-	
+		\item Ze względu na to, że pomiaru grubości rzeczywistej płytek ($d$) dokonano niewielką ilość razy, wykorzystano oszacowanie niepewności typu B. Przyjęto niepewność ($u(d)$) równą niepewności znamionowej śruby mikrometrycznej. Wyniki zapisano w tabeli (\ref{tab:niephd}).
 		
-		\item Niepewności wyliczenia współczynnika załamania
+		\item Pomiaru grubości pozornej ($h$) dokonano 9 razy, dlatego przyjęto oszacowanie niepewności typu A. Wyniki zapisano w tabeli~(\ref{tab:niephd}).
+		
+		\begin{table}[!h]
+			\caption{Niepewności pomiarowe grubości rzeczywistej i pozornej}
+			\label{tab:niephd}
+			\begin{center}
+				\begin{tabular}{|c|c|c|}
+					\hline Materiał & niepewność grubości rzeczywistej $u(d)$ [mm] & niepewność grubości pozornej $u(h)$ [mm] \\
+					\hline szkło & 0,01 & 0,01 \\
+					\hline szkło akrylowe & 0,01 & 0,01 \\
+					\hline 
+				\end{tabular} 
+			\end{center}
+		\end{table}
+		
+		\item Niepewności wyliczenia współczynnika załamania.
+		
+		Do wyznacznia niepewności wyliczenia współczynnika załamania wykorzystano prawo przenoszenia niepewności za pomocą wzoru:
+		
+		\begin{equation}
+		\label{eq:niepewnosczlozona}
+		u(n) = \sqrt{\left[ \frac{1}{h}u(d) \right]^2 + \left[ \frac{-d}{h^2}u(h) \right]^2}
+		\end{equation}
+		\begin{table}[!h]
+			\caption{Niepewności pomiarowe}
+			\label{tab:niepewnosci}
+			\begin{center}
+				\begin{tabular}{|c|c|c|}
+					\hline Materiał & niepewność złożona $u(n)$ & niepewność wzglądna $\frac{u(n)}{n}$ \\
+					\hline szkło & 0,01 & 0,006 \\
+					\hline szkło akrylowe & 0,01 & 0,005 \\
+					\hline 
+				\end{tabular} 
+			\end{center}
+		\end{table}
 		
 		
 		\item Otrzymano następujące wyniki:
-		\begin{center}
-			\begin{tabular}{|c|c|c|}
-				\hline Rodzaj materiału & $n$ obliczone & $n$ tablicowe \\
-				\hline szkło & 1,53 & 1,50–1,54 \\
-				\hline szkło akrylowe & 1,50 & 1,49 \\  
-				\hline 
-			\end{tabular} 
-		\end{center}
+		\begin{table}[!h]
+			\caption{Zestawienie wyników}
+			\label{tab:zestawienie}
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline Rodzaj materiału & $n$ obliczone & $n$ tablicowe & niepewność złożona $u(n)$ \\
+					\hline szkło & 1,53 & 1,50–1,54 & 0,01 \\
+					\hline szkło akrylowe & 1,50 & 1,49 & 0,01 \\  
+					\hline 
+				\end{tabular} 
+			\end{center}
+		\end{table}
 
 	
 	\end{enumerate}
