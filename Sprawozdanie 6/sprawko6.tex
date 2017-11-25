@@ -62,21 +62,15 @@
 	
 
 	\section{Opracowanie danych pomiarowych}\label{sec:opr}
-	\subsection{Pomiary i ich niepewności.}
-		
-	
- 
-	
-	\subsection{Opracowanie danych.}\label{sec:drm}
 	\begin{enumerate}[label=\alph*)]
 		
-		\item Pomiary:
+		\item Pomiary. Wyniki pomiarów zapisano w tabelach (\ref{tab:szklo} i \ref{tab:pleksi})
 		\begin{table}[!h]
 			\caption{Szkło}
 			\label{tab:szklo}
 			\begin{center}
 				\begin{tabular}{|c|c|c|c|}
-					\hline lp. & $a_d$  [mm] & $a_d$ [mm] & $h = a_d - a_g$ [mm]  \\
+					\hline lp. & $a_d$  [mm] & $a_g$ [mm] & $h = a_d - a_g$ [mm]  \\
 					\hline 1 & 8,00 & 6,05 & 1,95 \\
 					\hline 2 & 7,95 & 6,00 & 1,95 \\
 					\hline 3 & 7,97 & 6,03 & 1,94 \\
@@ -95,7 +89,7 @@
 			\label{tab:pleksi}
 			\begin{center}
 				\begin{tabular}{|c|c|c|c|}
-					\hline lp. & $a_d$  [mm] & $a_d$ [mm] & $h = a_d - a_g$ [mm]  \\
+					\hline lp. & $a_d$  [mm] & $a_g$ [mm] & $h = a_d - a_g$ [mm]  \\
 					\hline 1 & 7,63 & 5,09 & 2,54 \\
 					\hline 2 & 7,64 & 5,07 & 2,57 \\
 					\hline 3 & 7,66 & 5,10 & 2,56 \\
@@ -113,9 +107,27 @@
 		\item Analiza błędów.
 		Nie stwierdzono wystąpienia błędów grubych.
 		
-		\item Obliczenie wartości współczynnika załamania dla szkła i szkła akrylowego.
+		\item Obliczenie wartości współczynnika załamania dla szkła i szkła akrylowego. Zapisanie wyników w tabeli~(\ref{tab:zestawienie}).
 		
-		\item Niepewności wyliczenia współczynnika załamania
+		\item Ze względu na to, że pomiaru grubości rzeczywistej płytek ($d$) dokonano niewielką ilość razy, wykorzystano oszacowanie niepewności typu B. Przyjęto niepewność ($u(d)$) równą niepewności znamionowej śruby mikrometrycznej. Wyniki zapisano w tabeli (\ref{tab:niephd}).
+		
+		\item Pomiaru grubości pozornej ($h$) dokonano 9 razy, dlatego przyjęto oszacowanie niepewności typu A. Wyniki zapisano w tabeli~(\ref{tab:niephd}).
+		
+		\begin{table}[!h]
+			\caption{Niepewności pomiarowe grubości rzeczywistej i pozornej}
+			\label{tab:niephd}
+			\begin{center}
+				\begin{tabular}{|c|c|c|}
+					\hline Materiał & niepewność grubości rzeczywistej $u(d)$ [mm] & niepewność grubości pozornej $u(h)$ [mm] \\
+					\hline szkło & 0,01 & 0,01 \\
+					\hline szkło akrylowe & 0,01 & 0,01 \\
+					\hline 
+				\end{tabular} 
+			\end{center}
+		\end{table}
+		
+		\item Niepewności wyliczenia współczynnika załamania.
+		
 		Do wyznacznia niepewności wyliczenia współczynnika załamania wykorzystano prawo przenoszenia niepewności za pomocą wzoru:
 		
 		\begin{equation}
@@ -137,14 +149,18 @@
 		
 		
 		\item Otrzymano następujące wyniki:
-		\begin{center}
-			\begin{tabular}{|c|c|c|}
-				\hline Rodzaj materiału & $n$ obliczone & $n$ tablicowe \\
-				\hline szkło & 1,53 & 1,50–1,54 \\
-				\hline szkło akrylowe & 1,50 & 1,49 \\  
-				\hline 
-			\end{tabular} 
-		\end{center}
+		\begin{table}[!h]
+			\caption{Zestawienie wyników}
+			\label{tab:zestawienie}
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|}
+					\hline Rodzaj materiału & $n$ obliczone & $n$ tablicowe & niepewność złożona $u(n)$ \\
+					\hline szkło & 1,53 & 1,50–1,54 & 0,01 \\
+					\hline szkło akrylowe & 1,50 & 1,49 & 0,01 \\  
+					\hline 
+				\end{tabular} 
+			\end{center}
+		\end{table}
 
 	
 	\end{enumerate}
